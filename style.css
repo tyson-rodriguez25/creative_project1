@@ -1,0 +1,134 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.menu-container{
+        color:#FFF;
+        background-color: #5995DA;
+        padding:20px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+}
+.menu {
+        border: 1px solid #FFF;
+        width: 900px;
+        display:flex;
+        justify-content: space-around;
+}
+
+.container {
+        float: left;
+        margin: 0 auto;
+}
+
+h3 {
+        font-family: "Helvetica", "Arial", sans-serif !important;
+        float: right;
+        padding-right: 200px;
+        padding-left: 100px;
+        padding-top: 50px;
+}
+
+h4 {
+  color: #EC1414;
+}
+
+.header-container {
+        color: #5995DA;
+        background-color: #D6E9FE;
+        display: flex;
+        justify-content: center;
+}
+
+.header {
+        width: 900px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.subscribe, .social, .logo {
+        border: 1px solid #5995DA;
+}
+
+.footer {
+        display: flex;
+        justify-content: space-between;
+}
+
+.footer-item {
+        border: 1px solid #FFF;
+        background-color: #D6E9FE;
+        height: 30px;
+        flex: 1;
+}
+
+.footer-one, .footer-three {
+        background-color: #003366;
+        flex: initial;
+        width: 300px;
+}
+
+.home-page, .review-page, .portfolio-page {
+  width: 90%;
+  margin: auto;
+}
+
+hr {
+  display: block;
+  border-width: 2px;
+  color: #000000;
+}
+.about-page {
+  width: 60%;
+  margin: auto;
+}
+
+.github-link {
+        display: flex;
+        justify-content: center;
+}
+a {
+        color: #000000;
+}
+
+.aboutme{
+  width: 300px;
+  float: left;
+  margin-right: 70px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  width: 300px;
+  padding-top: 50px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  background-color: #003366 !important;
+}
+
+.masonry {
+  column-count: 3;
+  column-gap: 1em;
+}
+
+.item {
+  background-color: #000000;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+.nav-link.active{
+  color: #FFFFFF !important;
+}
+
+.navbar-brand, .navbar-nav, .navbar-light, .nav-link{
+  color: #FFFFFF !important;
+}
